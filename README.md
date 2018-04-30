@@ -6,7 +6,7 @@ If you wonder why this is useful, have a look at [this nice blogpost](https://be
 
 A project that uses this code is the [Physics Travel Guide](https://physicstravelguide.com/).
 
-# Example*
+# Example
 
 ```
 $$ \color{firebrick} X_{\color{freq} k} \color{black} = \color{seagreen} \frac{1}{N} \sum_{n=0}^{N-1} \color{royalblue}x_n \color{chartreuse} e^{\mathrm{i} \color{goldenrod} 2\pi \color{saddlebrown}k \color{darksalmon} \frac{n}{N}} $$
