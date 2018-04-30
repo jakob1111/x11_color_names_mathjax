@@ -165,7 +165,9 @@ MathJax.Hub.Config({
         inlineMath: [ ["$","$"], ["\\(","\\)"] ],
         processEscapes: true,
     },
-    TeX: {        extensions: ["color.js"]}
+    TeX: { 
+        extensions: ["color.js"]
+    }
 });
 ```
 
