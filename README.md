@@ -6,7 +6,7 @@ If you wonder why this is useful, have a look at [this nice blogpost](https://be
 
 A project that uses this code is the [Physics Travel Guide](https://physicstravelguide.com/).
 
-  **Example**
+# Example*
 
 ```
 $$ \color{firebrick} X_{\color{freq} k} \color{black} = \color{seagreen} \frac{1}{N} \sum_{n=0}^{N-1} \color{royalblue}x_n \color{chartreuse} e^{\mathrm{i} \color{goldenrod} 2\pi \color{saddlebrown}k \color{darksalmon} \frac{n}{N}} $$
@@ -16,7 +16,7 @@ renders to
 
 ![colors example](colorsexample.png)
 
-**Code**
+# Code
 
 ```
 
@@ -153,8 +153,21 @@ MathJax.Extension["TeX/color"].colors["yellowgreen"] = '#9acd32';
 });
 /*!]]>*/</script>
 <script type="text/javascript" charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML.js"></script>
+```
 
+# Colors and Single-Dollars
 
+To use the colors and at the same time single dollar signs to denote LaTeX code, use
+
+```
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+        processEscapes: true,
+    },
+    TeX: {        extensions: ["color.js"]}
+});
+```
 
   
   
