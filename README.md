@@ -2,6 +2,7 @@
 
 adding the code below in the `<head>` section makes it possible to use all [x11 colors](https://en.wikipedia.org/wiki/X11_color_names) in [MathJax](https://www.mathjax.org/) formulas.
 
+If you wonder why this is useful, have a look at [this nice blogpost](https://betterexplained.com/articles/colorized-math-equations/) by @kazad that contains several nice examples how colorized math equations can help a lot. 
 
   **Example**
 
